@@ -20,7 +20,7 @@ module.exports = function (options) {
             if (file.sourceMap) {
                 options = options || {};
                 options.sourceFileName = options.sourceFileName || file.relative;
-                options.sourceMapName = options.sourceMapName || file.relative + '.map';
+                options.sourceMapName = options.sourceMapName || file.relative;// + '.map';
             }
 			var res = esnext.compile(file.contents.toString(), options);
 

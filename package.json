@@ -1,6 +1,6 @@
 {
   "name": "gulp-esnext",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Transform next-generation JavaScript to today's JavaScript",
   "license": "MIT",
   "repository": "sindresorhus/gulp-esnext",
@@ -38,7 +38,7 @@
   ],
   "dependencies": {
     "esnext": "^0.8.2",
-    "gulp-util": "^2.2.18",
+    "gulp-util": "^2.2.19",
     "through2": "^0.5.1",
     "vinyl-sourcemaps-apply": "^0.1.1"
   },
